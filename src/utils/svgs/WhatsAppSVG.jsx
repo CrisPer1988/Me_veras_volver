@@ -2,8 +2,6 @@ import styles from "../../components/home.module.css";
 
 const WhatsAppSVG = () => {
   const handleWhatsAppClick = async () => {
-    // const message = "Hola, te escribo desde la Feria Online!!!";
-    // const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://wa.me/2622468440`;
     window.open(whatsappURL, "_blank");
   };
