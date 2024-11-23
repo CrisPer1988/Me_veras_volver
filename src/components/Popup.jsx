@@ -4,8 +4,8 @@ const Popup = () => {
   return (
     <div className={styles.container_pop_up}>
       <div className={styles.pop_up}>
-        <h2>PERDON... Es solo publicidad de mi emprendimiento</h2>
-        <p>Como te gusta el chisme JAJAJA!</p>
+        <h2>Como te gusta el chisme JAJAJA!</h2>
+        <img className={styles.image} src="/meme.png" alt="" />
       </div>
     </div>
   );

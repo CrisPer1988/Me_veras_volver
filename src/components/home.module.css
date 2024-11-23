@@ -15,20 +15,20 @@
 .pop_up {
   background-color: orangered;
   padding: 60px 20px 60px 20px;
-  width: 80%;
+  width: 90%;
   border-radius: 8px;
   z-index: 1000;
   color: white;
   text-align: center;
 }
 
-.button {
-  padding: 10px;
-  border-radius: 8px;
-  margin-top: 10px;
+.image {
+  background-color: white;
+  border-radius: 50%;
+  object-fit: fill;
   width: 100%;
-  background-color: orange;
-  color: black;
+  max-width: 500px;
+  height: auto;
 }
 
 .container {
