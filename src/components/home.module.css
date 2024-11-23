@@ -1,0 +1,112 @@
+.container_pop_up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+  z-index: 999;
+}
+
+.pop_up {
+  background-color: orangered;
+  padding: 60px 20px 60px 20px;
+  width: 80%;
+  border-radius: 8px;
+  z-index: 1000;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: orange;
+  color: black;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  padding: 10px;
+}
+
+.logo {
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  opacity: 0.6;
+}
+
+.content_name_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: orangered;
+  gap: 8px;
+}
+.name {
+  color: white;
+}
+
+.subtitle {
+  color: white;
+}
+
+.menu {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  color: orange;
+}
+
+.container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("/ME (2).png");
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.content_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title_type {
+  color: orangered;
+  font-size: 35px;
+}
+
+.title_menu {
+  color: orange;
+}
+
+.description_menu {
+  color: white;
+}
+
+.container_name_price {
+  display: flex;
+  justify-content: space-between;
+}
