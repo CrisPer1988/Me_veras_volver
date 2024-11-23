@@ -9,9 +9,9 @@ const Home = () => {
       <div className={styles.content_name_menu}>
         <h1 className={styles.name}>Me Verás Volver</h1>
         <p className={styles.subtitle}>Una Rotisería diferente</p>
-        <h2 className={styles.menu}>Menu</h2>
       </div>
-      <img className={styles.logo} src="/ME (2).png" alt="" />
+      <h2 className={styles.menu}>Menu</h2>
+
       <div className={styles.content_menu}>
         {menu.map((m) => (
           <div key={m.id}>

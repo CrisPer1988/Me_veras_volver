@@ -1,23 +1,21 @@
 import { useEffect, useState } from "react";
 import Home from "./components/Home";
 import Popup from "./components/Popup";
+import WhatsAppSVG from "./utils/svgs/WhatsAppSVG";
 
 function App() {
   const [isActive, setIsActive] = useState(true);
 
-  const closeModal = () => {
-    setIsActive(false);
-  };
-
   useEffect(() => {
     setTimeout(() => {
       setIsActive(false);
-    }, 3500);
+    }, 4000);
   }, []);
 
   return (
     <>
-      {isActive && <Popup close={closeModal} />}
+      {isActive && <Popup />}
+      <WhatsAppSVG />
       <Home />
     </>
   );
